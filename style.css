@@ -787,7 +787,7 @@ header {
     }
 
     .sobreMin {
-        height: 750px;
+        height: 850px;
         flex-direction: column;
         align-items: center;
     }
@@ -799,8 +799,8 @@ header {
 
     .sobreMinImg img {
         margin-top: -120px;
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
     }
 
     .skills {
@@ -813,5 +813,15 @@ header {
     }
     .cursos{
         padding-bottom: 50px;
+    }
+}
+@media screen and (max-width: 600px){
+    .sobreMinImg img {
+        margin-top: -120px;
+        width: 200px;
+        height: 200px;
+    }
+    .sobreMin{
+        height: 950px;
     }
 }

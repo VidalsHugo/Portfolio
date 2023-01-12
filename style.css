@@ -568,7 +568,7 @@ header {
 
 .card-projeto {
     border-radius: 16px;
-    box-shadow: -1rem 0 3em #000;
+    box-shadow: -1rem 0 3em rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -576,7 +576,7 @@ header {
 
     margin: 70px;
 
-    background-color: #191818;
+    background-color: #2f2e2e;
     transition: all .2s ease-in-out;
     border: 5px solid #191818;
     overflow: hidden;
@@ -603,7 +603,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    filter: drop-shadow(0px 0px 10px #000000);
+    filter: drop-shadow(0px 0px 10px #00000073);
     margin-bottom: 10px;
     margin-top: 10px;
 }
@@ -626,6 +626,11 @@ header {
     cursor: pointer;
     box-shadow: 1px 1px 10px white;
 
+}
+
+.projeto-desc h3 {
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px black;
 }
 
 .hide {
@@ -773,7 +778,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: start;
-    padding: 5px;
+    padding: 6px;
     border-radius: 10px;
 
     box-shadow: 1px 1px 10px black;
@@ -799,6 +804,34 @@ header {
     margin-left: 5px;
     width: 100%;
 }
+
+.projeto-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.projeto-desc p{
+    color: rgba(255, 255, 255, 0.663);
+    font-style: italic;
+}
+
+.projeto-desc-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.projeto-desc-icons img{
+    width: 45px;
+    height: 45px;
+
+    filter: drop-shadow(1px 1px 1.5px black);
+}
+
+/* AREA RESPONS.   !! ---------*/
+
 
 @media screen and (max-width: 850px) {
     .sobreMin {
@@ -898,6 +931,9 @@ header {
     .cursos {
         padding-bottom: 50px;
     }
+    .cursos h1{
+        text-shadow: 0px 0px 2.5px rgb(0, 0, 0);
+    }
 
     .footer-img {
         display: none;
@@ -927,6 +963,8 @@ header {
 
     .cursos {
         width: auto;
+        justify-content: center;
+        align-items: center;
     }
 
     .area-cursos {
@@ -956,8 +994,29 @@ header {
     }
 
     .card-cursos {
-        width: 340px;
+        width: 320px;
         height: auto;
+    }
+
+    .card-text h1 {
+        text-shadow: 0px 0px 3.5px rgb(0, 0, 0);
+    }
+
+    .content-text h3 {
+        text-shadow: 0px 0px 2px black;
+    }
+
+
+    h1 {
+        text-shadow: 0px 0px 2.5px black !important;
+    }
+
+    .skills-data h3 {
+        text-shadow: 1.5px 1.5px 2.5px black;
+    }
+
+    .skills-data p {
+        text-shadow: 0px 1.5px 2.5px black;
     }
 
 }

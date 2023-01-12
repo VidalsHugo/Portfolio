@@ -85,7 +85,8 @@ header {
     color: var(--color-white);
     cursor: pointer;
 }
-.btn-icon-reader svg{
+
+.btn-icon-reader svg {
     width: 35px;
     height: 35px;
 }
@@ -267,7 +268,9 @@ header {
 
 .skills {
     width: 100%;
-    height: 600px;
+    height: auto;
+
+    padding-bottom: 35px;
     background-color: rgb(31, 31, 31);
 
     display: flex;
@@ -287,24 +290,16 @@ header {
 .skills p {
     text-shadow: 0px 3px 5px black;
 }
-.area-cards{
+
+.area-cards {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.skills1{
-    width: 400px;
-    height: 400px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: center;
-    
-}
-.skills2{
+.skills1 {
     width: 400px;
     height: 400px;
 
@@ -315,20 +310,32 @@ header {
 
 }
 
-.skills1 img{
+.skills2 {
+    width: 400px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.skills1 img {
     width: 100px;
     height: 100px;
 
     filter: drop-shadow(2px 2px 2px #000000);
 }
 
-.skills2 img{
+.skills2 img {
     width: 100px;
     height: 100px;
 
     filter: drop-shadow(2px 2px 2px #000000);
 }
-.cards{
+
+.cards {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -337,34 +344,45 @@ header {
     margin: 20px;
 
 }
-.cards h3{
+
+.cards h3 {
     margin-left: 15px;
     margin-top: 10px;
 }
-.skills-data{
+
+.skills-data {
     width: 220px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.skills-data h3, .bar{
+
+.skills-data h3,
+.bar {
     margin-bottom: 10px;
 }
-.skills-data h3{
+
+.skills-data h3 {
     text-shadow: 3px 3px 5px black;
 }
-.skills-data p{
+
+.skills-data p {
     color: rgba(255, 255, 255, 0.726);
     font-style: italic;
 }
 
-.bar{
+.bar {
     display: flex;
     flex-direction: row;
 
 }
-#cbar1, #cbar2, #cbar3, #cbar4, #cbar5{
+
+#cbar1,
+#cbar2,
+#cbar3,
+#cbar4,
+#cbar5 {
     width: 30px;
     height: 15px;
 
@@ -374,11 +392,20 @@ header {
 
     box-shadow: inset 0.5px 0.5px 3px black;
 }
-#cbar1, #cbar2, #cbar3, #cbar4, #cbar5{
+
+#cbar1,
+#cbar2,
+#cbar3,
+#cbar4,
+#cbar5 {
     background-color: rgba(255, 0, 0, 0.426);
 }
 
-#javabar1, #javabar2, #javabar3, #javabar4, #javabar5{
+#javabar1,
+#javabar2,
+#javabar3,
+#javabar4,
+#javabar5 {
     width: 30px;
     height: 15px;
 
@@ -388,11 +415,17 @@ header {
 
     box-shadow: inset 0.5px 0.5px 3px black;
 }
-#javabar1, #javabar2{
+
+#javabar1,
+#javabar2 {
     background-color: rgba(179, 255, 0, 0.472);
 }
 
-#jsbar1, #jsbar2, #jsbar3, #jsbar4, #jsbar5{
+#jsbar1,
+#jsbar2,
+#jsbar3,
+#jsbar4,
+#jsbar5 {
     width: 30px;
     height: 15px;
 
@@ -403,11 +436,17 @@ header {
     box-shadow: inset 0.5px 0.5px 3px black;
 }
 
-#jsbar1, #jsbar2, #jsbar3{
+#jsbar1,
+#jsbar2,
+#jsbar3 {
     background-color: rgba(255, 255, 0, 0.754);
 }
 
-#htmlbar1,  #htmlbar2, #htmlbar3, #htmlbar4, #htmlbar5{
+#htmlbar1,
+#htmlbar2,
+#htmlbar3,
+#htmlbar4,
+#htmlbar5 {
     width: 30px;
     height: 15px;
 
@@ -417,11 +456,18 @@ header {
 
     box-shadow: inset 0.5px 0.5px 3px black;
 }
-#htmlbar1,  #htmlbar2, #htmlbar3{
+
+#htmlbar1,
+#htmlbar2,
+#htmlbar3 {
     background-color: rgba(255, 255, 0, 0.754);
 }
 
-#cssbar1, #cssbar2, #cssbar3, #cssbar4, #cssbar5{
+#cssbar1,
+#cssbar2,
+#cssbar3,
+#cssbar4,
+#cssbar5 {
     width: 30px;
     height: 15px;
 
@@ -432,11 +478,17 @@ header {
     box-shadow: inset 0.5px 0.5px 3px black;
 }
 
-#cssbar1, #cssbar2, #cssbar3{
+#cssbar1,
+#cssbar2,
+#cssbar3 {
     background-color: rgba(255, 255, 0, 0.754);
 }
 
-#nodebar1, #nodebar2, #nodebar3, #nodebar4, #nodebar5{
+#nodebar1,
+#nodebar2,
+#nodebar3,
+#nodebar4,
+#nodebar5 {
     width: 30px;
     height: 15px;
 
@@ -447,7 +499,7 @@ header {
     box-shadow: inset 0.5px 0.5px 3px black;
 }
 
-#nodebar1{
+#nodebar1 {
     background-color: rgba(38, 255, 0, 0.77);
 }
 
@@ -621,7 +673,8 @@ header {
 
 .cursos {
     width: 100%;
-    height: 650px;
+    height: auto;
+    padding-bottom: 55px;
 
     box-shadow: inset 0px 2px 7px 2px black;
 
@@ -629,6 +682,7 @@ header {
 
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -645,7 +699,7 @@ header {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    width: 1200px;
+    width: 100%;
     height: 400px;
     flex-wrap: wrap;
 }
@@ -697,16 +751,10 @@ header {
     filter: drop-shadow(0px 0px 5px #b3b3b374)
 }
 
-.eu{
+.eu {
     display: none;
 }
 
-
-@media screen and (max-width: 900px) {
-    .area-cursos {
-        width: 100%;
-    }
-}
 
 .card-cursos img {
     width: 75px;
@@ -758,8 +806,10 @@ header {
     }
 
     .area-cursos {
-        flex-wrap: wrap;
+        width: auto;
+        height: auto;
     }
+
 
 }
 
@@ -771,7 +821,13 @@ header {
 
 @media screen and (max-width: 750px) {
 
-    .eu{
+
+    .card {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .eu {
         display: flex;
         height: 145px;
         width: 145px;
@@ -785,21 +841,19 @@ header {
         box-shadow: 0px 0px 5px black;
 
     }
-    .eu img{
+
+    .eu img {
         height: 140px;
         width: 140px;
 
         border-radius: 50%;
     }
-    .content-text{
+
+    .content-text {
         margin-top: 15px;
     }
 
     .cursos {
-        height: auto;
-    }
-
-    .area-cursos {
         height: auto;
     }
 
@@ -810,7 +864,8 @@ header {
     .content h1 {
         font-size: 25px;
     }
-    .content-img{
+
+    .content-img {
         display: none;
     }
 
@@ -839,21 +894,70 @@ header {
     .data img {
         filter: none;
     }
-    .cursos{
+
+    .cursos {
         padding-bottom: 50px;
     }
+
     .footer-img {
         display: none;
     }
 
 }
-@media screen and (max-width: 600px){
+
+@media screen and (max-width: 600px) {
+
+    .card-text {
+        text-align: center;
+    }
+
     .sobreMinImg img {
         margin-top: -120px;
         width: 200px;
         height: 200px;
     }
-    .sobreMin{
+
+    .sobreMin {
         height: 950px;
     }
+}
+
+/* pocket */
+@media screen and (max-width: 430px) {
+
+    .cursos {
+        width: auto;
+    }
+
+    .area-cursos {
+        width: 360px;
+        height: auto;
+    }
+
+    .sobreMinTexto h1 {
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    .skills h1 {
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    .projetos h1 {
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    .cursos h1 {
+        font-size: 40px;
+        padding: 10px;
+
+    }
+
+    .card-cursos {
+        width: 340px;
+        height: auto;
+    }
+
 }

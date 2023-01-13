@@ -128,7 +128,6 @@ header {
     background-color: #00000079;
     margin-top: 50px;
     box-shadow: 0px 0px 10px 2px #00000071;
-
 }
 
 .content {
@@ -860,6 +859,7 @@ header {
         align-items: center;
     }
 
+
     .eu {
         display: flex;
         height: 145px;
@@ -888,10 +888,6 @@ header {
 
     .cursos {
         height: auto;
-    }
-
-    .content {
-        margin-left: 20px;
     }
 
     .content h1 {

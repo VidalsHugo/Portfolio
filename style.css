@@ -954,7 +954,7 @@ header {
     }
 }
 
-/* pocket */
+/* pckt */
 @media screen and (max-width: 430px) {
 
     .cursos {
@@ -984,6 +984,7 @@ header {
     }
 
     .cursos h1 {
+        box-shadow: none;
         font-size: 40px;
         padding: 10px;
 

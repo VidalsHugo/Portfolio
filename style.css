@@ -275,9 +275,10 @@ header {
     display: flex;
     text-align: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.307);
-
 }
 
 .skills h1 {
@@ -290,35 +291,6 @@ header {
     text-shadow: 0px 3px 5px black;
 }
 
-.area-cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.skills1 {
-    width: 400px;
-    height: 400px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: center;
-
-}
-
-.skills2 {
-    width: 400px;
-    height: 400px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: center;
-
-}
 
 .skills1 img {
     width: 100px;
@@ -334,14 +306,32 @@ header {
     filter: drop-shadow(2px 2px 2px #000000);
 }
 
-.cards {
+.area-cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 100%;
+    max-width: 900px;
+    height: auto;
+    max-height: 570px;
+
+    justify-content: center;
+    align-items: center;
+
+}
+.cards {
+    width: auto;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: left;
     align-items: center;
     margin: 20px;
 
+}
+.skills img{
+    width: 100px;
+    height: 100px;
 }
 
 .cards h3 {
@@ -483,11 +473,11 @@ header {
     background-color: rgba(255, 255, 0, 0.754);
 }
 
-#nodebar1,
-#nodebar2,
-#nodebar3,
-#nodebar4,
-#nodebar5 {
+#csharpbar1,
+#csharpbar2,
+#csharpbar3,
+#csharpbar4,
+#csharpbar5 {
     width: 30px;
     height: 15px;
 
@@ -498,10 +488,46 @@ header {
     box-shadow: inset 0.5px 0.5px 3px black;
 }
 
-#nodebar1 {
-    background-color: rgba(38, 255, 0, 0.77);
+#csharpbar1, #csharpbar2, #csharpbar3 {
+    background-color: rgba(255, 255, 0, 0.754);
 }
 
+#dotnetbar1,
+#dotnetbar2,
+#dotnetbar3,
+#dotnetbar4,
+#dotnetbar5 {
+    width: 30px;
+    height: 15px;
+
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    box-shadow: inset 0.5px 0.5px 3px black;
+}
+
+#dotnetbar1 {
+    background-color: rgba(9, 236, 28, 0.708);
+}
+#phytonbar1,
+#phytonbar2,
+#phytonbar3,
+#phytonbar4,
+#phytonbar5 {
+    width: 30px;
+    height: 15px;
+
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    box-shadow: inset 0.5px 0.5px 3px black;
+}
+
+#phytonbar1 {
+    background-color: rgba(9, 236, 28, 0.708);
+}
 
 /*
 .area-cards {
@@ -705,6 +731,7 @@ header {
     justify-content: center;
     width: 100%;
     height: 400px;
+    max-width: 1100px;
     flex-wrap: wrap;
 }
 
@@ -853,7 +880,10 @@ header {
 
 @media screen and (max-width: 750px) {
 
-
+.area-cards{
+    flex-direction: column;
+    max-height: none;
+}
     .card {
         justify-content: center;
         align-items: center;

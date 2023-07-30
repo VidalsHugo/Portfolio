@@ -313,7 +313,7 @@ header {
     width: 100%;
     max-width: 900px;
     height: auto;
-    max-height: 570px;
+    max-height: 770px;
 
     justify-content: center;
     align-items: center;
@@ -450,6 +450,24 @@ header {
 #htmlbar2,
 #htmlbar3 {
     background-color: rgba(255, 255, 0, 0.754);
+}
+
+#sqlbar1,
+#sqlbar2,
+#sqlbar3,
+#sqlbar4,
+#sqlbar5{
+    width: 30px;
+    height: 15px;
+
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    box-shadow: inset 0.5px 0.5px 3px black;
+}
+#sqlbar1{
+    background-color: rgba(9, 236, 28, 0.708);
 }
 
 #cssbar1,
